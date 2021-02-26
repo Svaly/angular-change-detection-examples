@@ -1,0 +1,10 @@
+<div class="container">
+  <p>root-child-two works!</p>
+  <p>{{textToDisplay}}</p>
+  <p>{{person?.name}}</p>
+
+  <div class="childs-container">
+    <app-root-child-two-child-one [textToDisplay]="textToDisplay" [person]="person"></app-root-child-two-child-one>
+    <app-root-child-two-child-two [textToDisplay]="textToDisplay" [person]="person"></app-root-child-two-child-two>
+  </div>
+</div>
